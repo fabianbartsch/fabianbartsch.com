@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabian Bartsch</title>
+   <!-- Import Montserrat font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: auto 100%;
+      background-position: right;
+      font-family: 'Montserrat', sans-serif;      color: #111;
+      display: flex;
+      align-items: center;
+      padding: 4vh 5vw;
+      padding-left: 10%;
+    }
+    .content {
+      text-align: center;
+    }
+    h1 {
+      font-size: 6rem;
+      margin: 0;
+      font-weight: 700;
+    }
+    p {
+      font-size: 2rem;
+      margin: 0.5rem 0 1.5rem;
+      color: #444;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+    .icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      background: #000;
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: white;
+    }
+    .icons i {
+      width: 24px;
+      height: 24px;
+      stroke-width: 2.2;
+    }
+    .icons a:hover {
+      background: #333;
+      transition: background 0.2s ease;
+    }
+
+    @media (max-width: 1500px) {
+      .overlay {
+        background-color: rgba(255, 255, 255, 0.75);
+        padding: 4vh 5vw;
+        border-radius: 12px;
+      }
+    }
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+        justify-content: center;
+        padding: 4vh 5vw !important;
+      }
+      h1 {
+        font-size: 3rem !important;
+      }
+      p {
+        font-size: 1.25rem !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="content">
+      <h1>Fabian Bartsch</h1>
+      <p>Software | AI | Automation</p>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/fabianbartsch/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+          <i data-lucide="linkedin"></i>
+        </a>
+        <a href="https://github.com/fabianbartsch" target="_blank" title="GitHub" aria-label="GitHub">
+          <i data-lucide="github"></i>
+        </a>
+        <a href="#" title="Email me" aria-label="Email" id="email-link">
+          <i data-lucide="mail"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>lucide.createIcons();</script>  
+  <script>
+    const user = "mail";
+    const domain = "fabianbartsch.com";
+    const link = document.getElementById("email-link");
+    link.href = "mailto:" + user + "@" + domain;
+  </script>
+</body>
+</html>
