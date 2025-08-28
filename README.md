@@ -6,9 +6,9 @@ This repository contains the source code for [fabianbartsch.com](https://fabianb
 
 I'm an independent software consultant specializing in:
 
-- Laravel web platforms  
-- AI-powered automation  
-- API integrations and backend systems
+- Software Development
+- AI
+- Automation
 
 The site is intentionally minimal — a fast, responsive landing page with a clear message and easy contact options.
 
@@ -26,6 +26,7 @@ The site is intentionally minimal — a fast, responsive landing page with a cle
 📁 / (repo root)
 ├── index.html      # Main landing page
 ├── bg.jpg          # Background image
+├── favicon.ico    	# Favicon
 └── README.md       # Project readme
 ```
 
