@@ -17,14 +17,15 @@ The site is intentionally minimal — a fast, responsive landing page with a cle
 - HTML5  
 - CSS3 (fully custom, no frameworks)  
 - [Lucide Icons](https://lucide.dev/) for modern, lightweight vector icons  
-- Google Fonts (Montserrat)  
+- Google Fonts (Montserrat)
+- Lightweight JavaScript for enhanced functionality
 
 ## 📦 Structure
 
-├── index.html # Main landing page
-├── bg.jpg # Background image
-└── README.md
-
+📁 / (repo root)
+├── index.html      # Main landing page
+├── bg.jpg     # Background image
+└── README.md       # Project readme
 
 ## ⚠️ JavaScript Notice
 
